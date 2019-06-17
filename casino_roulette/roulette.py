@@ -37,7 +37,7 @@ while continue_partie:
 nombre_gagnant = randrange(50)
 print("La roulette tourne ! ... .. et ... s'arrete sur le numéro ", nombre_gagnant, " ! ")
 if nombre_gagnant == nombre_mise:
-    print("Félicitation vous obtenez ", mise * 3 " $! ")
+    print("Félicitation vous obtenez ", mise * 3, " $! ")
     money += mise * 3
 elif nombre_gagnant % 2 == nombre_mise % 2:
     mise = ceil(mise * 0.5)
